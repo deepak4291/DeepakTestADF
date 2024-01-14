@@ -31,7 +31,7 @@
 					"sink": {
 						"type": "BinarySink",
 						"storeSettings": {
-							"type": "AzureFileStorageWriteSettings",
+							"type": "AzureBlobStorageWriteSettings",
 							"copyBehavior": "PreserveHierarchy"
 						}
 					},
@@ -45,7 +45,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Binary2",
+						"referenceName": "Binary3",
 						"type": "DatasetReference"
 					}
 				]
