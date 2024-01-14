@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://www.geodata-info.dk/srv/eng/catalog.search;jsessionid=806CCA6DC12F45EF12E6B33C70257E5C?resultType=details&any=Søfartsstyrelsen&from=1&to=20&sortBy=relevance#/search?facet.q=type%2Fdataset&resultType=details&from=1&to=20&sortBy=relevance&fast=index&_content_type=json",
+			"url": "https://wfs2-miljoegis.mim.dk/np3h2021/ows?service=wfs&version=1.1.0&request=GetCapabilities",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		},
