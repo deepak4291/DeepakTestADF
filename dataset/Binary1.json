@@ -1,0 +1,21 @@
+{
+	"name": "Binary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "https://www.geodata-info.dk/srv/eng/catalog.search;jsessionid=806CCA6DC12F45EF12E6B33C70257E5C?resultType=details&any=Søfartsstyrelsen&from=1&to=20&sortBy=relevance#/search?facet.q=type%2Fdataset&resultType=details&from=1&to=20&sortBy=relevance&fast=index&_content_type=json"
+			},
+			"compression": {
+				"type": "ZipDeflate",
+				"level": "Optimal"
+			}
+		}
+	}
+}
