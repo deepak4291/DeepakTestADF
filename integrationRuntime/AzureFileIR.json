@@ -12,8 +12,14 @@
 					"cleanup": false,
 					"customProperties": []
 				},
+				"copyComputeScaleProperties": {
+					"dataIntegrationUnit": 16,
+					"timeToLive": 30
+				},
 				"pipelineExternalComputeScaleProperties": {
-					"timeToLive": 60
+					"timeToLive": 60,
+					"numberOfPipelineNodes": 1,
+					"numberOfExternalNodes": 1
 				}
 			}
 		},
