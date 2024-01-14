@@ -1,0 +1,23 @@
+{
+	"name": "AzureFileStoragetest2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureFileStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "storageaccountconnectionstring"
+			},
+			"fileShare": "testpocazurefilshare"
+		},
+		"connectVia": {
+			"referenceName": "AzureFileIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

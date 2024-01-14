@@ -1,0 +1,12 @@
+{
+	"name": "SharedMyIR",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/12d974f1-a986-442f-9194-8c9452ba7722/resourcegroups/data-analytics-prod-weu-rg/providers/Microsoft.DataFactory/factories/data-analytics-shared-adf/integrationruntimes/MyIR",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

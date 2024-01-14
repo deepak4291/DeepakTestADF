@@ -1,0 +1,10 @@
+{
+	"name": "AzureFileStoragePOC",
+	"properties": {
+		"privateLinkResourceId": "/subscriptions/12d974f1-a986-442f-9194-8c9452ba7722/resourceGroups/Sandbox/providers/Microsoft.Storage/storageAccounts/testpocdata",
+		"groupId": "file",
+		"fqdns": [
+			"testpocdata.file.core.windows.net"
+		]
+	}
+}

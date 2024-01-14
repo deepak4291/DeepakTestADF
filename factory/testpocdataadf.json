@@ -1,0 +1,9 @@
+{
+	"name": "testpocdataadf",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0c94819b-bbee-4716-bcbc-412d18f74922",
+		"tenantId": "2596d791-95a9-4f15-97b6-bfb8760e0ac4"
+	}
+}

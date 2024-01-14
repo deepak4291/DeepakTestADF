@@ -1,0 +1,17 @@
+{
+	"name": "LS_testpocdatasqlserver",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=NTT-CZ35Y33;initial catalog=DeepakDB",
+			"userName": "AP\\deepak.dagur",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkYWRjYzMwNS1iMTU2LTQ0MTQtYTQ2NS04ZTBiNGE0MWZjMTAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SharedMyIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

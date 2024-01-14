@@ -1,0 +1,24 @@
+{
+	"name": "LS_AzureFileStoragePOCKeyVault",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureFileStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=testpocdata;EndpointSuffix=core.windows.net;",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "testpocadatastoragekey"
+			},
+			"fileShare": "testpocazurefilshare"
+		},
+		"connectVia": {
+			"referenceName": "AzureFileIR",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
