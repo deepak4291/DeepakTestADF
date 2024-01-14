@@ -1,6 +1,5 @@
 {
 	"name": "LS_AzureFileStoragePOCKeyVault",
-	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "AzureFileStorage",
@@ -20,5 +19,6 @@
 			"referenceName": "AzureFileIR",
 			"type": "IntegrationRuntimeReference"
 		}
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/linkedservices"
 }
